@@ -1,0 +1,39 @@
+.workshop-card {
+  background: var(--surface);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.workshop-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.workshop-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.workshop-card p {
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
+
+.register-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.register-btn:hover {
+  background: var(--primary-dark);
+}
